@@ -10,7 +10,8 @@ This repository contains a collection of machine learning projects implemented u
 
 - **Description**: Implements logistic regression for multi-class classification using the popular `LogisticRegression` model from scikit-learn.
 - **Key Features**:
-  - Multi-class classification using both `ovr` and `multinomial` strategies.
+  - Multi-class classification using `multinomial` strategie (the algorithm deprecated the multi_class parameter starting in version 1.5,
+  and it will be removed in version 1.7. From then on, when there are 3 or more classes, it will always use 'multinomial' internally).
   - Regularization tuning with the inverse regularization strength `C`.
   - Preprocessing using `StandardScaler`.
   - Evaluation using accuracy scores and loss tracking.
@@ -61,3 +62,8 @@ This repository contains a collection of machine learning projects implemented u
 [Built-in california houses in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)
 - SVM:
 [Diabetes dataset in kaggle](https://www.kaggle.com/code/orjiugochukwu/ml-models-for-detecting-diabetes-with-99-accuracy/input)
+
+
+## File formates:
+- ipynb (jupyter notebook)
+- pdf (for quick review)
